@@ -13,14 +13,13 @@ public class Main {
 
         Scanner s = new Scanner(System.in);
         System.out.println("moi nhap a: ");
-        int a = s.nextInt();
+        float a = s.nextInt();
         System.out.println("moi nhap b: ");
-        int b = s.nextInt();
+        float b = s.nextInt();
         System.out.println("moi nhap c: ");
-        int c = s.nextInt();
-            if (a < 0) {
-                System.out.println("phuong trinh vo nghiem");}
-             else if(a==0){
+        float c = s.nextInt();
+
+            if(a==0){
             System.out.println("phuong trinh co mot nghiem duy nhat x= "+(-c/b));}
             else
             {
